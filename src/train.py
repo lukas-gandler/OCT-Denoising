@@ -1,7 +1,6 @@
 """
-Main file for training DDPM on test dataset MNIST. 
-First the dataset gets loaded, then the DDPM is created and trained. The final model is then stored
-in the provided filepath.
+Main file for training DDPM on the OCTID dataset for retinal OCT image denoising. 
+First the dataset gets loaded, then the DDPM is created and trained. The final model is then stored in the provided filepath.
 
 @author: Lukas Gandler
 """
@@ -124,7 +123,7 @@ def main(store_model_path):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f'Using device: {device}\t' + (f'{torch.cuda.get_device_name(0)}' if torch.cuda.is_available() else 'cpu'))
 
-    # Create DDPM -> values and model taken from hu et al. (https://github.com/DeweiHu/OCT_DDPM/tree/main)
+    # Create DDPM -> values and model taken from hu et al. (https://arxiv.org/pdf/2201.11760.pdf)
     n_steps = 100
     min_beta = 0.0001
     max_beta = 0.006
@@ -139,5 +138,5 @@ def main(store_model_path):
 
 
 if __name__ == '__main__':
-    store_model_path = 'OCT_model_my_dataset_processed_RE-RUN.pt'
+    store_model_path = 'OCT_model_BEST.pt'
     main(store_model_path)
