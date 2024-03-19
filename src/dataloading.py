@@ -27,7 +27,7 @@ def load_OCT(batch_size: int, num_workers: int = 0) -> DataLoader:
         transforms.Normalize(mean=[0.21074388613859257], std=[0.13993958081559033])
     ])
 
-    dataset = ImageFolder('./datasets/OCTID_IMAGES', transform=transform)
+    dataset = ImageFolder('../datasets/OCTID_IMAGES', transform=transform)
     data_loader = DataLoader(dataset, batch_size=batch_size, num_workers=num_workers, shuffle=True)
     return data_loader
 
@@ -48,7 +48,7 @@ def load_processed_OCT(batch_size: int, num_workers: int = 0) -> DataLoader:
         transforms.Normalize(mean=[0.21008788933651848], std=[0.1335889231399768])
     ])
 
-    dataset = ImageFolder('./datasets/OCTID_IMAGES_PROCESSED_BIL', transform=transform)
+    dataset = ImageFolder('../datasets/OCTID_IMAGES_PROCESSED_BIL', transform=transform)
     data_loader = DataLoader(dataset, batch_size=batch_size, num_workers=num_workers, shuffle=True)
     return data_loader
 

@@ -5,18 +5,17 @@ First the dataset gets loaded, then the DDPM is created and trained. The final m
 @author: Lukas Gandler
 """
 
-
+from typing import Optional
 from tqdm.auto import tqdm
 
 import torch
 import torch.nn as nn
-from torch.optim import Optimizer, Adam, AdamW
+from torch.optim import Optimizer, Adam
 from torch.optim.lr_scheduler import StepLR, LRScheduler
 from torch.utils.data import DataLoader
 
-from dataloading import load_OCT, load_processed_OCT
+from dataloading import load_processed_OCT
 from networks.DiffusionModel import DDPM
-from networks.MNIST_UNet import MNIST_UNet
 from networks.DDPM_Net import Model
 
 
@@ -38,7 +37,7 @@ def save_checkpoint(model: DDPM, optimizer: Optimizer, scheduler: LRScheduler, l
         'epoch': epoch,
     }, checkpoint_path)
 
-def train(ddpm: DDPM, data_loader: DataLoader, num_epochs: int, optimizer: Optimizer, scheduler: LRScheduler,  store_path: str, checkpoint_path: str):
+def train(ddpm: DDPM, data_loader: DataLoader, num_epochs: int, optimizer: Optimizer, scheduler: LRScheduler,  store_path: str, checkpoint_path: Optional[str] = None):
     """
     Trains the DDPM on the given dataset and stores the trained model in the provided path.
     :param ddpm: Network to train
