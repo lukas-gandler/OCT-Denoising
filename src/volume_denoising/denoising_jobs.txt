@@ -1,0 +1,123 @@
+# List here all volumes that should be denoised and call volume_denoised.py
+# Layout: path to the .mhd file followed by the number of denoising steps, both separated by a whitespace
+
+# --- TEST SET --- #
+../../datasets/RETOUCH-TestSet-Cirrus/TEST001/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST002/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST003/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST004/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST005/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST006/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST007/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST008/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST009/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST010/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST011/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST012/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST013/oct.mhd 50
+../../datasets/RETOUCH-TestSet-Cirrus/TEST014/oct.mhd 50
+
+../../datasets/RETOUCH-TestSet-Spectralis/TEST015/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST016/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST017/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST018/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST019/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST020/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST021/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST022/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST023/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST024/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST025/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST026/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST027/oct.mhd 30
+../../datasets/RETOUCH-TestSet-Spectralis/TEST028/oct.mhd 30
+
+../../datasets/RETOUCH-TestSet-Topcon/TEST029/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST030/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST031/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST032/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST033/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST034/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST035/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST036/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST037/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST038/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST039/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST040/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST041/oct.mhd 100
+../../datasets/RETOUCH-TestSet-Topcon/TEST042/oct.mhd 100
+
+
+# --- TRAINING SET --- #
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN001/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN002/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN003/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN004/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN005/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN006/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN007/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN008/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN009/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN010/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN011/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN012/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN013/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN014/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN015/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN016/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN017/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN018/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN019/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN020/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN021/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN022/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN023/oct.mhd 50
+../../datasets/RETOUCH-TrainingSet-Cirrus/TRAIN024/oct.mhd 50
+
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN025/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN026/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN027/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN028/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN029/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN030/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN031/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN032/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN033/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN034/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN035/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN036/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN037/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN038/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN039/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN040/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN041/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN042/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN043/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN044/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN045/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN046/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN047/oct.mhd 30
+../../datasets/RETOUCH-TrainingSet-Spectralis/TRAIN048/oct.mhd 30
+
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN049/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN050/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN051/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN052/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN053/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN054/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN055/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN056/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN057/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN058/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN059/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN060/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN061/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN062/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN063/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN064/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN065/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN066/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN067/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN068/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN069/oct.mhd 100
+../../datasets/RETOUCH-TrainingSet-Topcon/TRAIN070/oct.mhd 100
